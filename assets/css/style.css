@@ -1,0 +1,126 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-color: #CCFEFD;
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+
+}
+
+
+
+#container {
+    position: relative;
+    width: 50%;
+    height :235px;
+    background-color:#CCFEFD;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    top: 100px;
+    left: 4%;
+}
+
+#status {
+    
+    position: absolute;
+    width: 150px;
+    height :25px;    
+    left: 175px;
+    top: 5px;
+}
+
+#timer {
+    
+    position: absolute;
+    width: 150px;
+    height :25px;    
+    left: 20px;
+    top: 5px;
+}
+
+#question {
+    position: absolute;
+    width: 90%;
+    height :25px;    
+    top: 35px;
+    left: 20px;
+}
+
+#answers {
+    position: absolute;
+    font-size: 14px;
+    width: 90%;
+    height :25px;    
+    top: 80px;
+    left: 16px;
+    text-align: center;
+}
+
+#start {
+    background-color: lightgreen; 
+    color: black;
+    font-weight: 900;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    text-align: center;    
+    font-size: 16px;    
+    cursor: pointer;
+}
+
+#start:hover{
+    background-color: white;
+    color: lightgreen;
+}
+
+ li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin: 8px; 
+
+
+}
+
+li:hover{
+    background: yellow;
+    cursor: pointer;
+
+}
+
+h1 {    
+    position: absolute;
+    top: 35px;
+    left: 55px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.correct {
+    background: rgb(20, 177, 20);
+    color: white;
+}
+
+.correct:hover{
+    background: rgb(20, 177, 20);
+}
+
+.incorrect {
+    background: rgb(179, 46, 46);
+    color: white;
+}
+
+.incorrect:hover {
+    background: rgb(179, 46, 46);
+    color: white;
+}
+
+.wrong {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+
+}
+
+
